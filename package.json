@@ -1,0 +1,25 @@
+{
+  "name": "chat_example",
+  "version": "1.0.0",
+  "description": "An example of a chatserver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shonix/twitter_test_app_001"
+  },
+  "keywords": [
+    "chat",
+    "server"
+  ],
+  "author": "Peter Raasthøj",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "node-tweet-stream": "^1.10.0",
+    "socket.io": "^1.4.5"
+  }
+}
